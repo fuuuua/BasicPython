@@ -5,3 +5,9 @@ text = """
 
 # TODO
 
+pypi= list(map(len,text.replace(',','').replace('.','').split()));print(pypi)
+answer=""
+for i in pypi:
+    answer += str(i)
+
+print(pypi)
