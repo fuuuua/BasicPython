@@ -10,4 +10,4 @@ answer=""
 for i in pypi:
     answer += str(i)
 
-print(pypi)
+print(answer)
